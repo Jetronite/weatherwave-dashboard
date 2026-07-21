@@ -118,7 +118,7 @@ src/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/weatherwave.git
+git clone https://github.com/Jetronite/weatherwave-dashboard.git
 ```
 
 ## Install dependencies
@@ -127,22 +127,10 @@ git clone https://github.com/yourusername/weatherwave.git
 npm install
 ```
 
-or
-
-```bash
-pnpm install
-```
-
 ## Start the development server
 
 ```bash
 npm run dev
-```
-
-or
-
-```bash
-pnpm dev
 ```
 
 ---
@@ -260,7 +248,7 @@ If you'd like to improve WeatherWave, feel free to fork the repository, create a
 
 # 📄 License
 
-This project is licensed under the MIT License.
+This project is unlicensed.
 
 ---
 
