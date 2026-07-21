@@ -92,7 +92,9 @@ export const DailyForecast: React.FC<DailyForecastProps> = ({ dailyData, isCelsi
 
               {/* Weather condition icon & label */}
               <div className="col-span-4 flex items-center gap-2">
-                <WeatherIcon code={day.weatherCode} size={22} id={`daily-icon-${index}`} />
+                <div id={`daily-icon-${index}`}>
+                  <WeatherIcon code={day.weatherCode} size={22} />
+                </div>
                 <div className="flex flex-col">
                   <span className="font-sans text-xs font-medium text-slate-700 dark:text-slate-300 line-clamp-1">
                     {getWeatherLabel(day.weatherCode)}
